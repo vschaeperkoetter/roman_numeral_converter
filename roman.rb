@@ -26,10 +26,6 @@ class RomanNumerals
     roman_string
   end
 
-  def self.to_arabic
-
-  end
-
 end
 
 describe RomanNumerals do
@@ -41,9 +37,4 @@ describe RomanNumerals do
     end
   end
 
-  # ARABIC_ROMAN_MAP.each do |arabic, roman|
-  #   it "converts #{roman} to #{arabic}" do
-  #     RomanNumerals.to_arabic(roman).must_equal arabic
-  #   end
-  # end
 end
